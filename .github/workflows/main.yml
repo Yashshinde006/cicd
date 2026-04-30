@@ -1,4 +1,4 @@
-name: CI check
+name: CI Pipeline
 
 on: push
 
@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Run command
-       run: echo "hello CI"
+      - name: Run command
+        run: echo "Hello CI/CD"
