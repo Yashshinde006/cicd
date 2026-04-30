@@ -8,4 +8,4 @@ jobs:
 
     steps:
       -name: Run command
-      run: echo "hello CI"
+       run: echo "hello CI"
