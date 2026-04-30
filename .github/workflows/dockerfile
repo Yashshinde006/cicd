@@ -1,3 +1,2 @@
 FROM ubuntu
-CMD ["echo","hello docker CI"]
-
+CMD ["echo","hello docker CI"
