@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Run command
         run: echo "Hello CI/CD"
+
+      - name: build docker image
+        run: docker build -t myapp .
