@@ -1,0 +1,11 @@
+name: CI check
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      -name: Run command
+      run: echo "hello CI"
