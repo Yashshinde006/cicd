@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI Docker
 
 on: push
 
@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run command
-        run: echo "Hello CI/CD"
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: build docker image
+      - name: Build Docker image
         run: docker build -t myapp .
